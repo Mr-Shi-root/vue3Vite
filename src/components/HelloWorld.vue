@@ -1,11 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import { ElPopover } from 'element-plus';
-import lodash from 'lodash-es';
-
-const test = lodash.debounce(() => {
-  console.log('test');
-}, 1000);
 
 defineProps<{ msg: string }>()
 
